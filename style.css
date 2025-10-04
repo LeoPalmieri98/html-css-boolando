@@ -10,8 +10,7 @@ body {
 
 .container-row {
     display: flex;
-    flex-direction: row;
- }
+}
 
 .container-column {
     display: flex;
@@ -32,6 +31,12 @@ header {
   max-height: 84px;
 }
 
+main {
+  padding-top: 5%;
+}
+
+/* NAVBARCSS */
+
 #logosizing {
   max-height: 30px;
 }
@@ -50,3 +55,20 @@ header {
 #navtext {
   font-weight: 700;
   }
+
+/* LAYOUT PRODUCTCSS */
+
+.column-33 {
+  width: 31%;
+
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+  gap: 2%;
+}
+
+.column-33 > img {
+  width: 100%;
+}
+
