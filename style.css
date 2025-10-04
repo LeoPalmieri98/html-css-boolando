@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  }
+
+.container-row {
+    display: flex;
+    flex-direction: row;
+ }
+
+.container-column {
+    display: flex;
+    flex-direction: column;
+ }
+
+.boxed {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+ul  {
+    list-style: none
+}
+
+header {
+  background-color: rgb(255, 102, 0);
+  max-height: 84px;
+}
+
+#logosizing {
+  max-height: 30px;
+}
+
+.dimension-header {
+  justify-content: space-between;
+  padding: 3%;
+}
+
+.navcolorbar {
+  color: white;
+  font-size: large
+  
+}
+
+#navtext {
+  font-weight: 700;
+  }
