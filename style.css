@@ -38,7 +38,7 @@ main {
 
 footer {
   min-height: 50%S;
-  background-color: rgba(56, 51, 69, 1);
+  background-color: rgb(0, 0, 0);
 }
 
 h5 {
@@ -48,8 +48,11 @@ h5 {
 }
 
 hr {
-  margin-top: 2%;
-  padding-bottom: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  color: white;
+  border-style: solid;
+  border-top: 10px;
 }
 
 /* NAVBARCSS */
@@ -59,10 +62,15 @@ hr {
 }
 
 .dimension-header {
-  justify-content: space-between;
-  padding: 2% 0% 2% 0%;
-  padding-right: 17.5%; 
+    justify-content: space-between;
+    padding: 2% 1% 2% 1%;
+    padding-right: 17.5%;
 }
+
+#navlogin {
+    display: flex;
+    height: 20px;
+  }
 
 .navcolorbar {
   color: white;
@@ -84,7 +92,6 @@ hr {
 .column-33 {
   width: 31%;
   padding-bottom: 5%;
-
 }
 
 .flex-wrap {
@@ -96,6 +103,60 @@ hr {
   width: 100%;
 }
 
+.positionheart {
+  position: relative;
+
+}
+
+.label {
+    position: absolute;
+    top: 1em;
+    right: 0px;
+    background: gray;
+    color: white;
+    padding: 0.25em 0.5em 0.25em 0.75em;
+}
+
+.cardheart {
+    background-color: white;
+    position: relative;
+    top: -575px;
+    right: -337px;
+    height: 35px;
+    padding: 1%;
+    padding-left: 2%;
+    width: 35px;
+    font-size: x-large;
+ }   
+ 
+ .cardgreen {
+    background-color: green;
+    width: 110px;
+    color: white;
+    padding: 2%;
+    font-size: medium;
+    font-weight: 600;
+    }
+
+.card-red {
+    margin-left: 4px;
+    width: 14%;
+    background-color: red;
+    color: white;
+    padding: 2%;
+    font-weight: 600;
+    }
+
+.card-image-bottom {
+    position: relative;
+    top: -160px;
+    }
+
+.cardheart:hover { 
+     color: red;
+     background-color:  rgba(217, 217, 216, 1);;
+}
+
 /* FOOTERBAR */
 
 .textfooterwhite {
@@ -104,3 +165,17 @@ hr {
  width: 50%;
 }
 
+
+
+.align-textend  {
+  text-align: end;
+}
+
+.margin-navfoot {
+   margin-right: 2%;
+   }
+
+.iconsocial {
+  background-color: white;
+  max-width: 4%;
+  }
