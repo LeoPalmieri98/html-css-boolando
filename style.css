@@ -29,6 +29,8 @@ ul  {
 header {
   background-color: rgb(255, 102, 0);
   max-height: 84px;
+  position: fixed;
+  width: 100%;
 }
 
 main {
@@ -44,32 +46,32 @@ footer {
 h5 {
   padding-top: 3%;
   padding-bottom: 1em;
-  font-size: larger;
+  font-size: medium;
 }
 
 hr {
   padding-top: 3%;
-  padding-bottom: 3%;
-  color: white;
-  border-style: solid;
-  border-top: 10px;
+  padding-top: 3%;
+  
 }
 
 /* NAVBARCSS */
 
 #logosizing {
  max-height: 30px;
+ padding-right: 10%;
 }
 
 .dimension-header {
     justify-content: space-between;
     padding: 2% 1% 2% 1%;
-    padding-right: 17.5%;
+ 
 }
 
 #navlogin {
     display: flex;
-    height: 20px;
+    height: 25px;
+    padding-right: 2%;
   }
 
 .navcolorbar {
